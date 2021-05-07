@@ -1,0 +1,11 @@
+export * from './account.service';
+import { AccountService } from './account.service';
+export * from './admin.service';
+import { AdminService } from './admin.service';
+export * from './exercises.service';
+import { ExercisesService } from './exercises.service';
+export * from './findExercises.service';
+import { FindExercisesService } from './findExercises.service';
+export * from './workouts.service';
+import { WorkoutsService } from './workouts.service';
+export const APIS = [AccountService, AdminService, ExercisesService, FindExercisesService, WorkoutsService];

@@ -1,0 +1,1 @@
+java -jar swagger-codegen-local/swagger-codegen-cli-3.0.20.jar generate -i swagger-codegen-local/swagger.json -l typescript-angular -o src/app --additional-properties modelPropertyNaming=original
